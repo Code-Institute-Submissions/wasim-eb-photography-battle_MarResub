@@ -194,7 +194,7 @@ font-size: 62px;
 }
 
 .text-input:hover {
-    border-color:#f16c6b;
+    border-color: #91716B;
 }
 
 .join-button {
@@ -203,7 +203,7 @@ font-size: 62px;
     padding:15px 32px 15px 32px;
     text-align:center;
     font-size:100%;
-    background-color:#f16c6b;
+    background-color:#91716B;
     color:#fafafa;
     display:block;
 }
