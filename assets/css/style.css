@@ -14,8 +14,9 @@
     position: relative;
 }
 
-.header h1{
+#logo{
     color: #fff;
+    text-decoration: none;
 }
 
 nav {
