@@ -1,3 +1,4 @@
+html { overflow-x: hidden}
 * {
     margin: 0;
     padding: 0;
@@ -170,13 +171,12 @@ font-size: 62px;
 }
 
 .signup-form {
-    margin:150px 10% 0 0;
-    color:#fff;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
-    left: 33%;
-    padding:30px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+    top: 12%;
 }
 
 .signup-form > h2 {
