@@ -9,7 +9,7 @@ html { overflow-x: hidden}
 .header {
     min-height: 100vh;
     width: 100%;
-    background: url(../css/images/jeff-hopper-iCtJF-A5hvs-unsplash.jpg);
+    background: url(../css/images/resize-5.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -164,7 +164,7 @@ font-size: 62px;
 
 .form-section {
     clear: left;
-    background: url("../css/images/mike-kienle-IccTpNQFo6A-unsplash.jpg");
+    background: url("../css/images/resize-4.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
