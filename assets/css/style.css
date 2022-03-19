@@ -27,8 +27,6 @@ nav {
     align-items: center;
 }
 
-/* how do i make the title bigger? */
-
 nav h1 {
     width: 150%;
 }
@@ -78,7 +76,7 @@ transition: 0.5s;
 .text-box {
     border: 1px solid #fff;
     background: black;
-    opacity: 0.6;
+    opacity: 0.85;
     width: 100vw;
 }
 
@@ -88,7 +86,7 @@ font-size: 62px;
 
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
 }
 
