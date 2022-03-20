@@ -1,4 +1,13 @@
-
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  * {
+    font-family: "Raleway";
+    box-sizing: border-box;
+  }
+  
   .top-nav {
     display: flex;
     flex-direction: row;
