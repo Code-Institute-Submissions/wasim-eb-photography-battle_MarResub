@@ -9,7 +9,7 @@ html { overflow-x: hidden}
 .header {
     min-height: 100vh;
     width: 100%;
-    background: url(../css/images/resize-5.jpg);
+    background: url(../images/resize-5.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -262,7 +262,7 @@ html { overflow-x: hidden}
   position: relative;
   height: 100vh;
   width: 100%;
-  background: url("../css/images/niklas-sagren-unsplash1.jpg");
+  background: url("../images/niklas-sagren-unsplash1.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -312,7 +312,6 @@ form label {
   background-color: #91716B;
   color: #FAFAFA;
   display: block;
-  width: 30%;
   margin-left: 35%;
   bottom: 20px;
   position: relative;
@@ -325,7 +324,7 @@ form label {
 
 /* .form-section {
     clear: left;
-    background: url("../css/images/drew-gilliam-1fb7PDc8c5E-unsplash1.jpg");
+    background: url("../images/drew-gilliam-1fb7PDc8c5E-unsplash1.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -389,10 +388,9 @@ form h2 {
 } */
 
 .social-media{
+  position:absolute;
+  bottom:0;
   width:100%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 40px;
-  padding-bottom: 0px;
-  margin-top: 400px;
-}
+  height:60px;   /* Height of the footer */
+  left: 45%;
+  }
