@@ -1,27 +1,31 @@
-html { overflow-x: hidden}
+html {
+  overflow-x: hidden
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .header {
-    min-height: 100vh;
-    width: 100%;
-    background: url(../images/resize-5.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: url(../images/resize-5.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-#logo{
-    color: #fff;
-    text-decoration: none;
-    font-size: 200%;
+#logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200%;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
 }
@@ -58,7 +62,7 @@ a {
   padding: 0;
 }
 
-.menu > li {
+.menu>li {
   margin: 0 1rem;
 }
 
@@ -98,16 +102,16 @@ a {
   margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::before {
+#menu-toggle:checked+.menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button {
+#menu-toggle:checked+.menu-button-container .menu-button {
   background: rgba(255, 255, 255, 0);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::after {
+#menu-toggle:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
@@ -116,6 +120,7 @@ a {
   .menu-button-container {
     display: flex;
   }
+
   .menu {
     position: absolute;
     top: 0;
@@ -126,20 +131,23 @@ a {
     justify-content: center;
     align-items: center;
   }
-  #menu-toggle ~ .menu li {
+
+  #menu-toggle~.menu li {
     height: 0;
     margin: 0;
     padding: 0;
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #menu-toggle:checked ~ .menu li {
+
+  #menu-toggle:checked~.menu li {
     border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  .menu > li {
+
+  .menu>li {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -148,13 +156,17 @@ a {
     color: white;
     background-color: #222;
   }
-  .menu > li:not(:last-child) {
+
+  .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 }
 
 
-html { overflow-x: hidden}
+html {
+  overflow-x: hidden
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -162,100 +174,101 @@ html { overflow-x: hidden}
   font-family: 'Oswald', sans-serif;
 }
 
-.text-box{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .text-box {
-    background: black;
-    opacity: 0.85;
-    width: 100vw;
+  background: black;
+  opacity: 0.85;
+  width: 100vw;
 }
 
 .text-box h1 {
-    font-size: 62px;
+  font-size: 62px;
 }
 
 .text-box p {
-    margin: 10px 0 40px;
-    font-size: 20px;
-    color: #fff;
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: #fff;
 }
 
-.about{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
+.about {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .about h1 {
-    font-size: 50px;
-    padding-bottom: 30px;
+  font-size: 50px;
+  padding-bottom: 30px;
 }
 
-.about p{
-    font-size: 20px;
+.about p {
+  font-size: 20px;
 }
 
-.rules{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.rules {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .rules h1 {
-    font-size: 50px;
-    padding-bottom: 30px;
+  font-size: 50px;
+  padding-bottom: 30px;
 }
 
-.rules p{
-    font-size: 20px;
+.rules p {
+  font-size: 20px;
 }
 
 /* Locations */
 
 .row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .location-col {
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    padding: 20px 12px;
-    position: relative;
-    overflow: hidden;
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 20px 12px;
+  position: relative;
+  overflow: hidden;
 }
 
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
+@media(max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
 }
 
 .location {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
 }
+
 .location h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .location-col img {
-    width: 100%;
+  width: 100%;
 }
 
 .form-section {
@@ -278,7 +291,7 @@ html { overflow-x: hidden}
   box-shadow: 7px 7px 30px #000;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
@@ -290,13 +303,13 @@ form label {
 }
 
 .text-input {
-  background:transparent;
-  color:#fafafa;
-  width:90%;
-  height:25px;
-  margin:5px 0 20px 0;
-  border:1px solid #fafafa;
-  border-radius:2px;
+  background: transparent;
+  color: #fafafa;
+  width: 90%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
   margin-left: 5%;
 }
 
@@ -318,8 +331,8 @@ form label {
 }
 
 .join-button:hover {
-  background-color:#fafafa;
-  color:#f16c6b;
+  background-color: #fafafa;
+  color: #f16c6b;
 }
 
 /* .form-section {
@@ -387,10 +400,25 @@ form h2 {
     color:#f16c6b;
 } */
 
-.social-media{
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:60px;   /* Height of the footer */
+.social-media {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Height of the footer */
   left: 45%;
+}
+
+/* Media Queries */
+
+/* Small mobile screens */
+@media screen and (min-width: 370px) and (max-width: 425px) {
+  .signup-form {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    box-shadow: 7px 7px 30px #000;
+    width: 80%;
   }
+
+
+}
