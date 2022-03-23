@@ -325,9 +325,9 @@ form label {
   background-color: #91716B;
   color: #FAFAFA;
   display: block;
-  margin-left: 35%;
   bottom: 20px;
   position: relative;
+  width: 100%;
 }
 
 .join-button:hover {
