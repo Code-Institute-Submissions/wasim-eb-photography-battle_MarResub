@@ -37,6 +37,33 @@ In order to participate in this challenge, users will use the sign up form to ge
     - Used to generate responsive image used in README file.
 
 
+## UX
+---
+### **Strategy**
+
+Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want. 
+The thought behind this project was also very simple and also inspired from the movie Need for Speed. All racers would receive a Location pinpoint in which they had 45 hours to reach.
+The user is able to grasp the necessary information pretty quickly. More inspiration and media will be found on the social media platforms.
+
+Photography Battle's target users are:
+* All ages
+* Photographers
+
+What these users would be looking for:
+* An adventure
+* Meeting new people
+* Recognition in photography
+
+### **Scope**
+
+In order to achieve the beneficial goal, the following features will be included in this release:
+
+- Header and menu bar, to navigate to various sections of the page
+- Information section to introduce the event
+- Newsletter sign up form
+- Footer containing links to social media
+
+
 ## Features
 
 This is a fully responsive website. The page is divided into the four sections listed in the navbar. Where a colour background has been used it has a nice fitting color and the text is white. All of the headings used the font Lato and I feel this consistency has been used across the website to create a coherent design. I have chosen a picture that fits the theme of the webpage and gives it a nice contrast combined with the other elements.
@@ -125,6 +152,37 @@ After:
 
 ## Unfixed bugs
 No unfixed bugs.
+
+# Deployment 
+This project was developed using [Gitpod](https://gitpod.io/workspaces), committed to git and pushed to GitHub using git commands. 
+
+To deploy this page to **GitHub Pages** from its [GitHub repository](https://github.com/TNamdarian/saranamdarian), the following steps were taken:
+
+1. Log into [GitHub](https://github.com/).
+2. From the list of repositories on the screen, **select saranamdarian**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under Source click the drop-down menu labelled None and select **Master Branch**. Then **Save** it. 
+6. Wait for a few minutes of the website to be deployed.
+7. Scroll back down to the **GitHub Pages** section to access the link to the deployed website.
+
+### Run this project locally
+- Select the Repository from the GitHub Dashboard.
+- Click the green button labelled 'Code'.
+- Click 'Download ZIP'.
+- Extract ZIP file on your computer.
+- Open folder and open index.html in web browser.
+
+### Clone this project
+- Select the Repository from the GitHub Dashboard.
+- Click the green button labelled 'Code'.
+- To clone the repository using:
+    - HTTPS: under "Clone with HTTPS", click checklist icon.
+    - SSH: click Use SSH, then click checklist icon.
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- Type 'git clone', and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
 
 ## Credits
 
