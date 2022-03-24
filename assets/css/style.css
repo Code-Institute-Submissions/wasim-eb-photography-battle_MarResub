@@ -49,7 +49,6 @@ a {
   color: #FFF;
   height: 50px;
   padding: 1em;
-  position: sticky;
   top: 0px;
   z-index: 9999;
 }
@@ -336,7 +335,8 @@ form label {
 }
 
 .social-media {
-  position: absolute;
+  background: linear-gradient(to left, #1b1b1b, #424242);
+  color: #fafafa;
   bottom: 0;
   width: 100%;
   height: 60px;

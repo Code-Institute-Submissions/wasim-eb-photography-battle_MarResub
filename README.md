@@ -1,10 +1,10 @@
 # Photography Battle
-The Photography Battle website is a website for photographers competing with each other and win fun prices. In addition to that, photographers will get recognized on our instagram page during the competition.
-In order to participate in this challenge, users will use the sign up form to get a chance to compete against other photographers. The given time will be sent via an email. You can access the website here: [Photography Battle](https://wasim-eb.github.io/photography-battle/)
+The Photography Battle website is a photography meet-up. In this event, photographers will enter a competition that takes place in three different locations in a city. A new city is picked every week and this week's pick is "Stockholm". Photographers who wins the battle will earn prices, such as camera gear. In addition to that, all photographers, or competitors will get recognized on our instagram page during the competition.
+In order to participate in this challenge, users will use the sign up form to get a chance to compete against other photographers. The given time and the exact location for the first meet-up will be sent via an email. You can access the website here: [Photography Battle](https://wasim-eb.github.io/photography-battle/)
 
 
 
-![responsive design](./assets/css/readme/s4.png)
+![responsive design](assets/images/responsive.png)
 
 
 
