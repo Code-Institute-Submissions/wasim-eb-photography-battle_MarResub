@@ -31,26 +31,26 @@ This is where I introduce the event and all the information needed before and du
 
 
 
-![header](assets/images/aboutpage.png)
+![aboutpage](assets/images/aboutpage.png)
 
 
 
-### The About page
+### This Week's Location
 
-* The about page provides the user with the necessary information about the event.
-* Rules for the even are also included in this section.
-
-
-
-![aboutpage](./assets/css/readme/s12.png)
+This section shows us the city of the current week's Challenge. I have included the name of the city
+in the header. Below the header, we get to see a picture and name of each of the locations where different stages of the challenge will take place. I wanted to keep this section as clean as possible,
+and my choice of pictures will be representing the previous winners of each of the locations.
 
 
 
-### Sign up form 
+![aboutpage](assets/images/locations.png)
 
-* The sign up form is used by the participants to sign up for the event.
-* The form collects the contact information from the participants.
-* The participants will then recieve all the necessary information for their next event.
+
+### Signup Form
+
+The sign up form is used by the participants to sign up for the event.
+The form collects the contact information from the participants.
+The participants will then recieve all the necessary information for their next event.
 
 
 
