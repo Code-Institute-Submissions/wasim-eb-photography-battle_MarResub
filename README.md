@@ -7,6 +7,35 @@ In order to participate in this challenge, users will use the sign up form to ge
 ![responsive design](assets/images/responsive.png)
 
 
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts linked in the header, fonts used were Lato and Oswald
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the social media icons used in the footer
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [GitHub](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Git](https://git-scm.com/)
+    - Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+- [Tiny.png](https://tinypng.com/)
+    - Allowed me to compress my images so that the page would load faster.
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+    - Allowed me to test the colour contrast of my webpage.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate all HTML code written and used in this webpage.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate all CSS code written and used in this webpage.
+- [AmIResponsive](http://ami.responsivedesign.is/)
+    - Used to generate responsive image used in README file.
+
 
 ## Features
 

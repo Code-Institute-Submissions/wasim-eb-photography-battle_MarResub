@@ -341,4 +341,14 @@ form label {
     box-shadow: 7px 7px 30px #000;
     width: 80%;
   }
+
+  .header {
+    min-height: 100vh;
+    width: 100%;
+    background: url(../images/resize-5crop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 }
