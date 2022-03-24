@@ -335,12 +335,13 @@ form label {
 }
 
 .social-media {
+  position: absolute;
+  text-align: center;
   background: linear-gradient(to left, #1b1b1b, #424242);
   color: #fafafa;
   bottom: 0;
   width: 100%;
-  height: 60px;
-  left: 45%;
+  height: 55px;
 }
 
 /* Media Queries */

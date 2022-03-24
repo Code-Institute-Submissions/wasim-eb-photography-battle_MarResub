@@ -43,18 +43,18 @@ and my choice of pictures will be representing the previous winners of each of t
 
 
 
-![aboutpage](assets/images/locations.png)
+![locations](assets/images/locations.png)
 
 
-### Signup Form
+### Signup Form And Footer
 
-The sign up form is used by the participants to sign up for the event.
-The form collects the contact information from the participants.
-The participants will then recieve all the necessary information for their next event.
+The sign up form is used by the participants to sign up for the event. Eight participants are
+randomly picked to join the Challenge. The participants will then receive all the necessary information for their next event. I was inspired by the movie "Need for Speed" where the competitors
+for the Car race are randomly picked, and who then has 45 hours to reach the picked location.
+The footer is very simple with the social media buttons. The background is a grayish color which I think fits in with the stylish background of a bridge in Stockholm.
 
 
-
-![header](./assets/css/readme/s13.png)
+![signup](/assets/images/signupfooter.png)
 
 
 
