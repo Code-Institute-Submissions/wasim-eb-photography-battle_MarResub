@@ -10,27 +10,28 @@ In order to participate in this challenge, users will use the sign up form to ge
 
 ## Features
 
+This is a fully responsive website. The page is divided into the four sections listed in the navbar. Where a colour background has been used it has a nice fitting color and the text is white. All of the headings used the font Lato and I feel this consistency has been used across the website to create a coherent design. I have chosen a picture that fits the theme of the webpage and gives it a nice contrast combined with the other elements.
+
 
 ### Navigation bar
 
-* The navigation bar at the right top of the page is used to navigate through the different sections in the website.
-* The font for the navigation bar is the same font being used throughout the whole website to keep everything stylish and fitting with the theme.
-* The navigation bar is easily visible and makes it easier to navigate through the website without having to scroll down to your desired section.
+The navigation bar at the right top of the page is used to navigate through the different sections on the website.
+The font for the navigation bar is the same font being used throughout the whole website to keep everything stylish and fitting with the theme.
+The navigation bar is easily visible and makes it easier to navigate through the website without having to scroll down to your desired section. When viewed on a smaller screen, the navigation bar turns into a Hamburger menu. 
 
 
 
-![nav-bar](./assets/css/readme/s7.png)
+![nav-bar](assets/images/navbar.png)
 
 
 
-### The header
+### The About Page
 
-* The header gives the user a short description of the event.
-* The image shows a big variety of different camera gear that the participants can use.
-
+This is where I introduce the event and all the information needed before and during the event. I also included a "Rules" section at the end of the page. 
 
 
-![header](./assets/css/readme/s5.png)
+
+![header](assets/images/aboutpage.png)
 
 
 

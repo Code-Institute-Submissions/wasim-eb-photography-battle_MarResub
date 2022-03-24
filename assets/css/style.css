@@ -340,7 +340,6 @@ form label {
   bottom: 0;
   width: 100%;
   height: 60px;
-  /* Height of the footer */
   left: 45%;
 }
 
@@ -354,6 +353,4 @@ form label {
     box-shadow: 7px 7px 30px #000;
     width: 80%;
   }
-
-
 }
