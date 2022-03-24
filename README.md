@@ -188,7 +188,7 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 
 ### Coding content
 * Most of my coding was used by myself.
-* The idea behind the webpage was inspired by a photographer name Northborders on instagram.
+* The idea behind this webpage was inspired by the move "Need for speed" and a photographer named Northborders on instagram who started a photography battle trend on Youtube.
 * I took a lot of inspiration from the Love Running project.
 * I used [W3Schools](https://www.w3schools.com/) as my main source for codes.
 * I had to go back a few times and look at older coding from the previous lessons.
