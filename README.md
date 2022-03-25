@@ -42,7 +42,7 @@ In order to participate in this challenge, users will use the sign up form to ge
 ### **Strategy**
 
 Considering the core UX principles I first started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want. The user is able to grasp the necessary information pretty quickly. More inspiration and media will be found on the social media platforms.
-The thought behind this project was also very simple and also inspired from the movie Need for Speed. In the movie, the racers would receive a Location pinpoint in which they had 45 hours to reach.
+The thought behind this project was very simple and also inspired from the movie Need for Speed. In the movie, the racers would receive a Location pinpoint in which they had 45 hours to reach.
 
 Photography Battle's target users are:
 * All ages
