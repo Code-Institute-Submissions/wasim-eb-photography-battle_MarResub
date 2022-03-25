@@ -155,8 +155,10 @@ with the results. A screenshot of this is also presented at the top of the READM
 ![cssvalidator](/assets/images/cssvalidator.png)
  
 - I used lighthouse in the dev tools in Google Chrome to confirm the accessibilty on both mobile devices and desktops.
+* Desktop:
 ![desktoplighthouse](/assets/images/desktopvalid.png)
-![mobilelighthouse](/assets/images/mobilevalid.png)
+* Mobile:
+![mobilelighthouse](/assets/images/mobilevalid1.png)
 
 - [Color Contrast Accessibility Validator](https://color.a11y.com/)
     - The **Color Contrast Accessibility Validator** was used to test for colour contrast on the project.
