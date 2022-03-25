@@ -146,18 +146,22 @@ I ran a test on [Responsive Design](http://ami.responsivedesign.is/) platform an
 with the results. A screenshot of this is also presented at the top of the README-file.
 
 
-* I used the W3C Validator to test the html code and it shows no errors: [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwasim-eb.github.io%2Fphotography-battle%2F)
+- I used the W3C Validator to test the html code and it shows no errors: [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwasim-eb.github.io%2Fphotography-battle%2F)
 
 ![htmlvalidator](/assets/images/htmlvalidator.png)
 
 
-* The CSS code is is also validated. Check the results here: [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-wasimeb-photographybatt-8xuetim6vzm.ws-eu38.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- The CSS code is is also validated. Check the results here: [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-wasimeb-photographybatt-8xuetim6vzm.ws-eu38.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![cssvalidator](/assets/images/cssvalidator.png)
+ 
+- I used lighthouse in the dev tools in Google Chrome to confirm the accessibilty on both mobile devices and desktops.
+![desktoplighthouse](/assets/images/desktopvalid.png)
+![mobilelighthouse](/assets/images/mobilevalid.png)
 
-* No errors were found neither in the HTML nor the CSS code. 
-* I used lighthouse in the dev tools in Google Chrome to confirm the accessibilty on both mobile devices and desktops.
-
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+    - The **Color Contrast Accessibility Validator** was used to test for colour contrast on the project.
+    ![colorcontrast](/assets/images/colorcontrast.png)
 
 
 ## Unfixed bugs
@@ -196,15 +200,17 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 
 ## Credits
 
+I would like to thank my mentor Guido Cecilio for providing good knowledge and help with this project.
 ### Coding content
-* Most of my coding was used by myself.
-* The idea behind this webpage was inspired by the move "Need for speed" and a photographer named Northborders on instagram who started a photography battle trend on Youtube.
-* I took a lot of inspiration from the Love Running project for the design.
-* I used [W3Schools](https://www.w3schools.com/) as my main source for codes.
-* I had to go back a few times and look at older coding from the previous lessons.
-
+- Most of my coding was used by myself.
+- The idea behind this webpage was inspired by the move "Need for speed" and a photographer named Northborders on instagram who started a photography battle trend on Youtube.
+- I took a lot of inspiration from the Love Running project for the design.
+- I used [W3Schools](https://www.w3schools.com/) as my main source for codes.
+- I had to go back a few times and look at older coding from the previous lessons.
+- Thank you to [Alvarotrigo](https://alvarotrigo.com/blog/hamburger-menu-css/) for providing the Hamburger menu.
 ### Media
 All of my pictures were downloaded from [Unsplash](https://unsplash.com/)
+
 
 
 
