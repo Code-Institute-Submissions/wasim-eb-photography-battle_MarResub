@@ -56,12 +56,30 @@ What these users would be looking for:
 
 ### **Scope**
 
-In order to achieve the beneficial goal, the following features will be included in this release:
+In order to achieve the beneficial goal, the following features will be included in this version:
 
 - Header and menu bar, to navigate to various sections of the page
 - Information section to introduce the event
 - Newsletter sign up form
 - Footer containing links to social media
+
+
+### **Structure**
+
+The idea behind using a single-page website was to allow for a clean flow; the sticky navigation bar allows the users to easily navigate to any section of the website that they are trying to reach. My strategy behind the order of the pages would allow the user to easily learn, understand the structure and effortlessly navigate through the site when using it for the first time. The navigation links are also placed according to the order of the pages. All pages are combined with stylish photography to ensure interest is kept as the user goes through every page. The About Page is the only clean page which only contains text, as I felt that it was most fitting since there would be more reading than the rest of the page. The simple sign up form is broken up with a very beautiful image in the background but still remains very simplistic. 
+
+
+
+### **Skeleton**
+
+The website contains 4 sections; Header, About, Locations, Sign up section. I decided to combine them all to a single page for an easier flow.
+
+
+
+### **Surface**
+
+I chose a very simple design with various photographs to keep the user focus on the mentioned subject, which is Photography. I want the users of this website to be inspired when opening up 
+the first page and later on scrolling through the locations. The color theme of the website is Black-White-Grayish in combination with strong color pictures to give it a nice modern feel.
 
 
 ## Features
@@ -75,20 +93,14 @@ The navigation bar at the right top of the page is used to navigate through the 
 The font for the navigation bar is the same font being used throughout the whole website to keep everything stylish and fitting with the theme.
 The navigation bar is easily visible and makes it easier to navigate through the website without having to scroll down to your desired section. When viewed on a smaller screen, the navigation bar turns into a Hamburger menu. 
 
-
-
 ![nav-bar](assets/images/navbar.png)
-
 
 
 ### The About Page
 
 This is where I introduce the event and all the information needed before and during the event. I also included a "Rules" section at the end of the page. 
 
-
-
 ![aboutpage](assets/images/aboutpage.png)
-
 
 
 ### This Week's Location
@@ -96,8 +108,6 @@ This is where I introduce the event and all the information needed before and du
 This section shows us the city of the current week's Challenge. I have included the name of the city
 in the header. Below the header, we get to see a picture and name of each of the locations where different stages of the challenge will take place. I wanted to keep this section as clean as possible,
 and my choice of pictures will be representing the previous winners of each of the locations.
-
-
 
 ![locations](assets/images/locations.png)
 
@@ -109,46 +119,46 @@ randomly picked to join the Challenge. The participants will then receive all th
 for the Car race are randomly picked, and who then has 45 hours to reach the picked location.
 The footer is very simple with the social media buttons. The background is a grayish color which I think fits in with the stylish background of a bridge in Stockholm.
 
-
 ![signup](/assets/images/signupfooter.png)
+
+
+## Future Features:
+* A Gallery - to show off various pictures from previous events
+* A blog - to provide more in depth updates and reviews
 
 
 
 ## Testing
 
-* I experimented with the webpage on different browsers such as: Chrome(main), firefox, and safari. 
-* I also tested the webpage on the [Responsive Design](http://ami.responsivedesign.is/) platform. 
-* I made sure to test it live on different mobile phones aswell to see if how responsive the website is, also how it would look on different screens.
-* I confirmed that the website works in function and in looks.
+Throughout building the project, I would be testing the website with developer tools. This way, I could easily find the minor bugs in the structures which I would then fix in the code. The website was tested over multiple devices (iPhone 5, 6, 11: Safari and Chrome, iPad, Samsung Galaxy) and many browsers (Chrome, Firefox, Safari and Edge) to guarantee responsive behaviour and compatibility.. The results were all clean and the website is working as intended. I asked my friends and family to test the website on their browsers and different devices to locate potential bugs.
+I did come across some minor bugs during development but the majority were easily fixed with **Chrome Dev Tools** to locate the sources.
+
+* I experienced a problem when attempting to view my webpage live. Some pictures were not showing. I noticed that the problem was coming from the href so I did a quick fix by refactoring the URL.
+
+* The sign up form was visible at the center of the big image while viewing it on my laptop, but it was moved to the left while viewing it on my mobile phone. This was fixed with some padding and margin adjustments.
+
+* There was also an issue with the “I’m Ready” button when viewing on a smaller screen platform. This was resolved using media query and adding a 100% width to the button to avoid resizing.
 
 
-## Bugs
+# Validator Testing
 
-* I experienced a problem when attempting to view my webpage live. Some pictures were not showing. I corrected this error by adding a dot in the img code:
-
-Before:
-
-
-![without-a-dot](./assets/css/readme/s6.png)
+I ran a test on [Responsive Design](http://ami.responsivedesign.is/) platform and I'm happy
+with the results. A screenshot of this is also presented at the top of the README-file.
 
 
+* I used the W3C Validator to test the html code and it shows no errors: [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwasim-eb.github.io%2Fphotography-battle%2F)
 
-After:
-
-
-![with-a-dot](./assets/css/readme/s8.png)
-
-* The sign up form was visible at the center of the big image while viewing it on my laptop, but it was moved to the left while viewing it on my mobile phone.
-* I fixed this by playing around the margin and padding codes. I am still struggling a little bit with this part in coding but I'm getting there.
+![htmlvalidator](/assets/images/htmlvalidator.png)
 
 
-## Validator testing
+* The CSS code is is also validated. Check the results here: [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-wasimeb-photographybatt-8xuetim6vzm.ws-eu38.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-* The end result shows no errors in the HTML code. Check the results here: [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwasim-eb.github.io%2Fphotography-battle%2F)
-* The CSS code is is also validated. Check the results here: [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwasim-eb.github.io%2Fphotography-battle%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=es)
+![cssvalidator](/assets/images/cssvalidator.png)
+
 * No errors were found neither in the HTML nor the CSS code. 
 * I used lighthouse in the dev tools in Google Chrome to confirm the accessibilty on both mobile devices and desktops.
----- Screenshot of the lighthouse performance ----
+
+
 
 ## Unfixed bugs
 No unfixed bugs.
@@ -189,7 +199,7 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 ### Coding content
 * Most of my coding was used by myself.
 * The idea behind this webpage was inspired by the move "Need for speed" and a photographer named Northborders on instagram who started a photography battle trend on Youtube.
-* I took a lot of inspiration from the Love Running project.
+* I took a lot of inspiration from the Love Running project for the design.
 * I used [W3Schools](https://www.w3schools.com/) as my main source for codes.
 * I had to go back a few times and look at older coding from the previous lessons.
 
