@@ -83,7 +83,7 @@ the first page and later on scrolling through the locations. The color theme of 
 
 ## Features
 
-This is a fully responsive website. The page is divided into the four sections listed in the navbar. Where a colour background has been used it has a nice fitting color and the text is white. All of the headings used the font Lato and I feel this consistency has been used across the website to create a coherent design. I have chosen a picture that fits the theme of the webpage and gives it a nice contrast combined with the other elements.
+This is a fully responsive website. All of the headings used the font Lato and I feel this consistency has been used across the website to create a coherent design. I have chosen a picture that fits the theme of the webpage and gives it a nice contrast combined with the other elements. The page is divided into the four sections listed in the navbar:
 
 
 ### Navigation bar
